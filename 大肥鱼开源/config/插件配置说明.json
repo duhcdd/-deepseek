@@ -1,0 +1,42 @@
+{
+  "说明": "把下面的内容按需改到 AstrBot 的 数据/配置 里；QQ 号填你自己的。",
+  "插件配置": {
+    "free_will": {
+      "ENABLED": true,
+      "OWNER_UID": "你的QQ号",
+      "PLATFORM_ID": "你的平台ID（如 <你的平台ID>）",
+      "SLEEP_START": "01:00",
+      "SLEEP_END": "12:00",
+      "NAP_START": "12:00",
+      "NAP_END": "12:00",
+      "ENFORCE_REST_SILENCE": false,
+      "PROACTIVE_SHARE_ENABLED": true,
+      "CAT_ENABLED": true,
+      "CAT_NAME": "小鲸鱼"
+    },
+    "life_scheduler": {
+      "schedule_time": "12:05"
+    },
+    "dynamic_life_state": {
+      "session_list_mode": "whitelist",
+      "session_list": [
+        "你的平台ID:FriendMessage:你的QQ号"
+      ]
+    },
+    "self_learning": {
+      "Learning_Parameters": {
+        "min_messages_for_learning": 20,
+        "learning_interval_hours": 2
+      },
+      "Self_Learning_Basic": {
+        "enable_realtime_learning": true
+      },
+      "Integration_Settings": {
+        "delegate_memory_to_livingmemory": false,
+        "disable_local_memory_when_delegated": false,
+        "delegate_reply_to_group_chat_plus": false,
+        "disable_local_reply_when_delegated": false
+      }
+    }
+  }
+}

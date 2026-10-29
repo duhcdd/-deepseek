@@ -1,0 +1,4 @@
+name: astrbot_plugin_pc
+desc: 整台电脑：读写任意盘 + 执行命令（系统目录只读）
+author: dsh
+version: 2.0.0
